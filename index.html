@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A historia do tigre</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passos-0">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\Capturar.PNG"alt="">
+            <p>Início: O tigre acorda em sua caverna e está com fome.Ele sai para caçar ou explorar os arredores.</p>
+            <button class="btn-proximo" data-proximo="1">escolher caçar</button>
+            <button class="btn-proximo" data-proximo="2">escolher explorar os arredores</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Caminho da caça: o tigre vê uma presa pequena e fácil, mas também sente o cheiro de um cervo maior mais adiante.: Ele tenta capturar a presa pequena ou segue em direção ao cervo.</p>
+            <button class="btn-proximo" data-proximo="3">escolher a presa pequena</button>
+            <button class="btn-proximo" data-proximo="4">escolher o cervo</button>
+        </div>
+       
+        <div class="passo" id="passo-3">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\o tigre na caverna.jpg"alt="">
+            <p>Presa pequena: o tigre consegue pegar a presa facilmente e se alimenta.</p>
+            <p>Fim da aventura: ele volta satisfeito para sua caverna</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\tigre andando pela floresta satisfeito.jpg"alt="">
+            <p>O cervo maior: o tigre enfrenta uma caçada desafiadora, mas após alguns minutos, consegue capturar o cervo.</p>
+            <p>Fim alternativo: ele volta para a caverna, cansado, mas satisfeito com a refeição.</p>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Explorando os arredores: o tigre encontra um rio com água cristalina.ele decide beber água ou nadar.</p>
+            <button class="btn-proximo" data-proximo="7">escolher beber água</button>
+            <button class="btn-proximo" data-proximo="6">escolher nadar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Bebendo água: enquanto bebe água, o tigre vê outro animal próximo. Ele pode tentar fazer amizade ou assuntá-lo.tentar amizade ou assustar o outro animal.</p>
+            <button class="btn-proximo" data-proximo="9">escolher amizade</button>
+            <button class="btn-proximo" data-proximo="10">escolher assustar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\tigre voltando para a caverna.jpg"alt="">
+            <p>Nadando no rio: o tigre se refresca e percebe que nadar o relaxou.</p>
+            <p>Fim da aventura: ele volta para sua caverna, mais relaxado.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\tigre e o cervo.jpg"alt="">
+            <p>Fazendo amizade; o tigre e o outro animal (um cervo) tornam-se amigos e decidem explorar juntos.</p>
+            <p>Fim alternativo: eles partem para novas aventuras.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="\CRIANDO-UMA-AVENTURA\fluxograma\tigre andando triste.avif"alt="">
+            <p>Assustando o outro animal: o outro animal foge, e o tigre percebe que ficou sozinho novamente.</p>
+           <p>Fim alternativo: ele volta para a caverna sem novas amizade.</p>
+        </div>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>
